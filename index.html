@@ -8,6 +8,199 @@
     <meta name="author" content="Gui Web Designer" />
 </head>
 <body>
-    
+    <header class="container">
+        <nav class="nav-bar ">
+            <div class="logo">
+                <img src="assets/img/logo-correia.png" alt="logo">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color: #e1a948;">Home</a></li>
+                    <li class="nav-item"><a href="#office" class="nav-link">O Escritório</a></li>
+                    <li class="nav-item"><a href="#areas" class="nav-link">Áreas de Atuação</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Equipe</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><i class="icon fa-solid fa-bars "></i></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link" style="color: #e1a948;">Home</a></li>
+                <li class="nav-item"><a href="#office" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#areas" class="nav-link">Portfólio</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h3>Seja Bem-Vindo</h3>
+            <h1>Construímos espaços residenciais através de uma 
+                combinação única de engenharia, construção e design.
+            </h1>
+        </div>
+    </header>
+    <main>
+        <section id="sobre" class="container">
+            <div class="title">
+                <h5>Sobre nós</h5>
+                <h1>Arquitetura não é apenas visual, é sobre conexão.</h1>
+            </div>
+            <p>
+                Somos um estúcio especializado em design moderno, interiores e projetos
+                arquitetônicos. Trabalhamos em colaboração com os clientes para obter uma
+                compreensão de seus desejos, tanto filosóficos quanto práticos. Desde a nossa
+                criação, entregamos ambientes excepcionais, estimulantes e ambiciosos. Como.
+                uma empresa full-service, estamos presente em projetos do início ao fim.
+            </p>
+        </section>
+
+        <section id="portfolio">
+            <div>
+                <div class="title">
+                    <h5>Portfólio</h5>
+                    <h1>Nosso Trabalho</h1>
+                </div>
+                <button>Veja Mais projetos</button>
+            </div>
+            <div class="projetos-grid">
+                <div class="projetos-items" style="background-image: url('assets/img/sala-de-estar.webp');">
+                    <a href="#" >
+                        <h3>Sala de Estar</h3>
+                        <p>design, interior</p>
+                    </a>
+                </div>
+                <div class="projetos-items" style="background-image: url('assets/img/residencia.webp');">
+                    <a href="#" >
+                        <h3>Residência</h3>
+                        <p>design, interior</p>
+                    </a>
+                </div>
+                <div class="projetos-items" style="background-image: url('assets/img/lounge.webp');">
+                    <a href="#" >
+                        <h3>Lounge</h3>
+                        <p>design, interior</p>
+                    </a>
+                </div>
+                <div class="projetos-items" style="background-image: url('assets/img/gourmet.webp');">
+                    <a href="#" >
+                        <h3>Espaço Gourmet</h3>
+                        <p>design, interior</p>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+        <section class="divisor">
+
+        </section>
+        <section id="servicos">
+            <div>
+                <div class="title">
+                    <h5>Serviços</h5>
+                    <h1>Nossas especialidades</h1>
+                    <p>Somos conhecidos por projetar e instalar espaços exclusivos, internos e externos.</p>
+                </div>
+                <div>
+                    <buttton>Arquitetura</buttton>
+                    <buttton>Interiores</buttton>
+                    <buttton>Expetise</buttton>
+                </div>
+                <div>
+                    <p class="text-arquitetura">
+                        Como uma empresa full-service, estamos presente nos projetos do início ao fim, 
+                        garantindo que as ideias concebidas no início com os clientes se manifestem no final.
+                        <br>
+                        Nosso foco está no design moderno e na criação de espaços funcionais, eficientes e bonitos. 
+                        Nós nos esforçamos para entregar resultados excepcionais toda vez que somos chamados para transformar o espaço de alguém.
+                    </p>
+                    <p class="text-interiores">
+                        Cada design é uma representação viva do tempo e da aplicação de habilidades envolvidas em tornar um espaço funcional e bonito.
+                        <br>
+                        Porque acreditamos que um espaço bonito pode inspirar uma vida melhor, os nossos serviços incluem consultoria de 
+                        design sobre funcionalidade e estética do espaço, gestão de projetos, aquisição e administração de construção.
+                    </p>
+                    <p class="text-expertise">
+                        Oferecendo a melhor expertise para o seu projeto, combinamos práticas de design inovadoras com técnicas tradicionais de fabricação.
+                        Nossos clientes variam de pequenas reformas residenciais a edifícios comerciais de alto padrão e instalações.
+                        <br>
+                        Trabalhamos com cada cliente para desenvolver um plano personalizado para atender às suas especificações. 
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img src="assets/img/servicos.webp" alt="">
+            </div>
+
+        </section>
+        <section id="contato">
+            <div>
+                <div class="title">
+                    <h5>Tem um projeto em mente?</h5>
+                    <h1>Vamos conversar</h1>
+                </div>
+                <form action="">
+                    <div class="input-nome">
+                        <label for="">Nome*</label>
+                        <input type="text" placeholder="Nome">
+                    </div>
+                    <div class="input-email">
+                        <label for="">Email*</label>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-msg">
+                        <label for="">Mensagem*</label>
+                        <textarea name="mensagem" rows="10" placeholder="Mensagem"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="maps">
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <div>
+            <img src="" alt="">
+            <p>Estúdio especializado em design moderno, interiores e projetos arquitetônicos.</p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div>
+            <h5>Menu</h5>
+            <ul>
+                <li>Página Inicial</li>
+                <li>Sobre nós</li>
+                <li>Portfólio</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+        <div>
+            <h5>Institucional</h5>
+            <ul>
+                <li>Termos e Condições</li>
+                <li>Política de Privacidade</li>
+            </ul>
+        </div>
+        <div>
+            <h5>Horário de Atendimento</h5>
+            <ul>
+                <li>Segunda à sexta — 9h às 18h</li>
+                <li>Sábado — 9h às 12h</li>
+            </ul>
+        </div>
+    </footer>
+
+
 </body>
 </html>
